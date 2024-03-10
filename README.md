@@ -1,5 +1,5 @@
 # Convert LORE to ONNX
-该仓库用来转换[无线表格识别模型LORE](https://www.modelscope.cn/models/iic/cv_resnet-transformer_table-structure-recognition_lore/summary)为ONNX格式。
+This repo is used to convert [LORE](https://www.modelscope.cn/models/iic/cv_resnet-transformer_table-structure-recognition_lore/summary) to ONNX format.
 
 #### 1. Clone the source code.
 ```bash
