@@ -1,26 +1,37 @@
 # Convert LORE to ONNX
+
 This repo is used to convert [LORE](https://www.modelscope.cn/models/iic/cv_resnet-transformer_table-structure-recognition_lore/summary) to ONNX format.
 
-#### 1. Clone the source code.
+#### 1. Clone the source code
+
 ```bash
 git clone https://github.com/SWHL/ConvertLaTeXOCRToONNX.git
 ```
 
-#### 2. Install env.
+#### 2. Install env
+
 ```bash
-conda install --yes --file requirements.txt
+# Anaconda
+conda env create -f environment.yml
+
+# pip (python 3.10.0)
+pip install -r requirements.txt
 ```
-#### 3. Run the demo, and the converted model is located in the `moodels` directory.
+
+#### 3. Run the demo, and the converted model is located in the `moodels` directory
+
 ```bash
 python main.py
 ```
 
 #### 4. Install `lineless_table_rec`
+
 ```bash
 pip install lineless_table_rec
 ```
 
 #### 5. Use
+
 ```python
 from pathlib import Path
 
